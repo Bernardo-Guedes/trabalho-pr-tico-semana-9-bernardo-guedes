@@ -1,0 +1,126 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(83, 24, 165);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+button{
+    transition: 0.3s;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+.control-area{
+    display: flex;
+    justify-content: end;
+    margin-right: 14px;
+}
+
+.control-area input, select, button{
+    margin-left: 5px;
+    border: solid 1px #47e7ff;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+}
+
+#product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 5px;
+    box-sizing: border-box;
+    max-width: 170px;
+    background-color: white;
+    border: solid 3px rgb(121, 193, 255);
+}
+
+.card h2{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.card p:first-of-type{
+    color: white;
+    background-color: green;
+    max-width: 80px;
+    padding: 3px 8px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.card p:nth-of-type(2){
+    background-color: rgb(121, 193, 255);
+    padding: 3px 8px;
+    border-radius: 50px;
+    max-width: 80px;
+    text-align: center;
+}
+
+.card button:first-of-type{
+    font-size: 0.5rem;
+    font-weight: bold;  
+    margin: 0;
+}
+
+.card button:last-of-type{
+    font-size: 0.5rem;
+    font-weight: bold;
+    margin-right: 0;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.highlight{
+    border: solid 3px yellow;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.productDetails{
+    margin: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productDetails div p{
+    margin: 5px 0;
+    margin-left: 20px;
+}
+
+.productDetails h3{
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.productDetails .desc{
+    border-left: solid 1px gray;
+    padding-left: 8px;
+    max-width: 250px;
+    text-align: justify;
+    flex: 1;
+}
