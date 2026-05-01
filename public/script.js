@@ -5,7 +5,7 @@ const data = {
             nome: "It Takes Two",
             preco: 69.65,
             categoria: "Aventura",
-            imagem: "img/it2.jpg",
+            imagem: "/img/it2.jpg",
             descricao: "It Takes Two é um jogo cooperativo de aventura para dois jogadores, onde um casal precisa superar desafios criativos trabalhando em equipe para restaurar seu relacionamento.",
             emEstoque: true
 
@@ -15,7 +15,7 @@ const data = {
             nome: "Red Dead Redemptiom 2",
             preco: 299.90,
             categoria: "Ação",
-            imagem: "img/rd2.jpg",
+            imagem: "/img/rd2.jpg",
             descricao: "Red Dead Redemption 2 é um jogo de mundo aberto no Velho Oeste, onde você vive a jornada de Arthur Morgan em uma história intensa de crime, lealdade e sobrevivência.",
             emEstoque: false
         },
@@ -24,7 +24,7 @@ const data = {
             nome: "Assassin's Creed Valhalla",
             preco: 279.95,
             categoria: "RPG",
-            imagem: "img/acv.jpg",
+            imagem: "/img/acv.jpg",
             descricao: "Assassin’s Creed Valhalla é um RPG de ação em mundo aberto onde você assume o papel de um guerreiro viking, explorando a Inglaterra medieval, conquistando territórios e construindo seu clã.",
             emEstoque: false
         },
@@ -33,7 +33,7 @@ const data = {
             nome: "Ace Combat 7: Skies Unknown",
             preco: 339.90,
             categoria: "Ação",
-            imagem: "img/ac7.jpg",
+            imagem: "/img/ac7.jpg",
             descricao: "Ace Combat 7: Skies Unknown é um jogo de combate aéreo que coloca você no controle de caças modernos em batalhas intensas, com missões dinâmicas e gráficos realistas.",
             emEstoque: true
         },
@@ -42,7 +42,7 @@ const data = {
             nome: "Dead Cells",
             preco: 49.00,
             categoria: "RPG",
-            imagem: "img/deadcells.jpg",
+            imagem: "/img/deadcells.jpg",
             descricao: "Dead Cells é um jogo estilo roguelike com exploração rápida e combates desafiadores, onde cada tentativa traz novas armas, habilidades e caminhos diferentes.",
             emEstoque: true
         },
@@ -51,7 +51,7 @@ const data = {
             nome: "F1 25",
             preco: 139.60,
             categoria: "Esporte",
-            imagem: "img/f125.jpg",
+            imagem: "/img/f125.jpg",
             descricao: "F1 25 é um jogo de corrida oficial da Fórmula 1 que traz carros, equipes e circuitos atualizados, com foco em realismo, modos de carreira e competição intensa nas pistas.",
             emEstoque: true
         },
@@ -60,7 +60,7 @@ const data = {
             nome: "Shadow Of The Thomb Raider",
             preco: 269.82,
             categoria: "Aventura",
-            imagem: "img/sott.jpg",
+            imagem: "/img/sott.jpg",
             descricao: "Shadow of the Tomb Raider é um jogo de ação e aventura onde Lara Croft explora ruínas antigas, resolve enigmas e enfrenta perigos para impedir um apocalipse maia.",
             emEstoque: false
         },
@@ -69,7 +69,7 @@ const data = {
             nome: "EA Sports FC 25",
             preco: 189.75,
             categoria: "Esporte",
-            imagem: "img/fc25.jpg",
+            imagem: "/img/fc25.jpg",
             descricao: "EA Sports FC 25 é um jogo de futebol com times, ligas e jogadores atualizados, oferecendo modos como carreira, Ultimate Team e partidas online competitivas.",
             emEstoque: true
         }
