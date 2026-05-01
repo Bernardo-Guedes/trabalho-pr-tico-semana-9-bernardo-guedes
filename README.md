@@ -11,12 +11,12 @@ Você vai usar métodos e propriedades do document e seus nodos para criar eleme
 
 # Print dos card renderizados
 
-[!print dos card renderizados](/img/render.png)
+![print dos card renderizados](/img/render.png)
 
 # Print da área de detalhes
 
-[!print da área de detalhes](/img/details.png)
+![print da área de detalhes](/img/details.png)
 
 # Print do console com listagem
 
-[!print do console](/img/console.png)
+![print do console](/img/console.png)
